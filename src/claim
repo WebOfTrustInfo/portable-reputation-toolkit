@@ -58,6 +58,7 @@ jsonldSignatures.promises.sign(claim, {
   result.openTimestamp = openTimestamp
   console.log("\n\nresult:")
   console.log(JSON.stringify(result, null, 4))
+  run("mkdir -p claims")
   fs.writeFileSync('claims/xyz', canonicalJson(result))
   var id = run("ipfs add -q claims/xyz").toString().trim()
   console.log("open https://ipfs.io/ipfs/" + id)
