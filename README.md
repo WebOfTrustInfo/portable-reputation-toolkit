@@ -1,5 +1,6 @@
 # Portable Reputation Toolkit
-Simple scripts to bring together a proof of concept _Portable Reputation Toolkit_.
+Simple scripts to bring together a proof of concept _Portable Reputation Toolkit_. Use cases are described in detail [here](https://docs.google.com/document/d/1aIR2q0ZY89euWrbIXBNSP5rh73i2JAkJQJ78KjCDz8M/edit?usp=sharing).
+
 They currently:
 
 - Generate DIDs using [did-io](https://github.com/digitalbazaar/did-io)
