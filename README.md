@@ -1,7 +1,10 @@
 # Portable Reputation Toolkit
-Simple scripts to bring together a proof of concept _Portable Reputation Toolkit_. Use cases are described in detail [here](https://docs.google.com/document/d/1aIR2q0ZY89euWrbIXBNSP5rh73i2JAkJQJ78KjCDz8M/edit?usp=sharing).
 
-They currently:
+**By Christopher Allen, Tim Daubenschütz, Manu Sporny, Noah Thorp, Harlan Wood, Glenn Willen, Alessandro Voto**
+
+In social networks, markets, and value chains we have a hard time determining what is true and who to trust. Yet verified information is critical for the functioning of a networked democratic society. The portable reputation toolkit is intended to address these issues. Full use cases are described in detail [here](https://docs.google.com/document/d/1aIR2q0ZY89euWrbIXBNSP5rh73i2JAkJQJ78KjCDz8M/edit?usp=sharing).
+
+These _Portable Reputation Toolkit_ proof of concept scripts allow you to:
 
 - Generate DIDs using [did-io](https://github.com/digitalbazaar/did-io)
 - Create [JSON-LD claims](http://opencreds.org/specs/source/claims-data-model/#expressing-entity-credentials-in-json)
@@ -15,7 +18,7 @@ Future goals:
 
 - Allow a user to request a claim
 - Retrieve existing claims
-- Search and filtering when retrieving claims
+- Search, filter and algorithmically evaluate claims
 
 ## Installation
 
